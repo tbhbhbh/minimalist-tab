@@ -1,0 +1,70 @@
+body, html {
+    background-color: black;
+    height:100%;
+
+}
+.flex-container {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+
+
+a, h3 {
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#search-bar {
+    padding-top: 5%;
+
+    margin: 0 auto;
+}
+
+.icons {
+
+    font-size: 50px;
+}
+
+.icons i {
+    color: #a1a0a0;
+    padding: 0 5px 0 5px;
+}
+
+.icons i:hover {
+    color: #fff;
+}
+
+#search-bar input {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #a1a0a0;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;
+}
+
+#clock {
+
+    color: grey;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+}
+
+#date {
+
+    color: grey;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+
+
+
+

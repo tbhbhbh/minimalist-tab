@@ -1,0 +1,14 @@
+{
+    "name": "my custom new tab",
+    "version": "1.0",
+    "description": "Overrides the new tab page",
+    "manifest_version": 2,
+    "incognito": "split",
+    "chrome_url_overrides": {
+        "newtab" : "index.html"
+    },
+    "background": {
+        "scripts": ["index.js"],
+        "persistent": true
+      }
+  }
